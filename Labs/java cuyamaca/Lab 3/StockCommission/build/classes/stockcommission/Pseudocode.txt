@@ -1,0 +1,22 @@
+
+// input - what you put in
+
+enter - the stock name  // hypothetical, just enter a random name for now
+input - the stockbrokers name // if working for an actual company you would use the companies name
+enter - price per share 
+input - number of shares that were sold 
+
+// processing - formulas used in the program 
+
+ price per share >= $75, commission = $0.30 per # of share 
+price per share < $75, commission = $0.20 per # of share 
+if # of shares are > 200, commission is bonus of 0.10 + 0.30 per # of share 
+
+ // Example, a broker sells 250 shares at a price of $100/share. Commission would be 250 * 0.30 = $75.00. 
+// The broker would also get a bonus. Bonus = 75.00 * 0.1 = $7.50. Total commission would be 75.00 + 7.50 = $82.50
+
+// output - your result
+
+display - commission
+display - bonus // if there is a bonus, if not it has a zero in its place
+display - total commission 

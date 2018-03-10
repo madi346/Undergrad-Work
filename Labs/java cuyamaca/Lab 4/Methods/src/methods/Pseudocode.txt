@@ -1,0 +1,20 @@
+
+// pseudocode to search an array for a value
+input - array (values) and item to find (value) 
+i = 0
+idx = -1
+
+// process - search the array and try to find the value 
+while i < arrayLength and idx = -1
+
+    // is the value were looking for a subscript of 1?
+    if value = values[i] then 
+        idx = i
+    end if 
+
+    // loop counter 
+     i++ or i = i + 1
+end while 
+
+// output - return where in the array we found it or -1 if not found 
+return idx 

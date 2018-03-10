@@ -1,0 +1,22 @@
+// input 
+// kWh stands for the monthly kilowatt hours used 
+Enter kWh 
+
+
+// processing 
+// kWh Rate/kWh
+// 1 – 250 (Tier 1) $0.15
+// 251 – 300 (Tier 2) $0.20
+// Over 300 (Tier 3) $0.25
+if ((qty >= 0) && (qty <= 1)) {
+bill = $0.00; } 
+else if ((qty >= 1) && (qty <= 250)) {
+bill = $0.15; } 
+else if ((qty >= 251) && (qty <= 300)) {
+bill = $0.20; } 
+else if (qty >= 300) {
+bill = $0.25; } 
+
+
+// output 
+Display bill total 

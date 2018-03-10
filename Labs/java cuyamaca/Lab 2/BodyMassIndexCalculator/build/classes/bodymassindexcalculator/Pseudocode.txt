@@ -1,0 +1,21 @@
+// Input - use the words "Input", "Get" or "Enter"
+Enter Height
+Input Weight
+
+// Processing - what calculations or formulas are needed?
+bmi = kilograms / meters2 
+meters = inches / 39.36
+kilograms = pounds / 2.2
+
+BMI range Message
+Less than 18.5 Under weight
+18.5 – 24.99 Normal weight
+25 – 29.99 Over weight
+30 – 39.99 Obese
+40 or over Morbid Obesity
+
+
+// Output - use the words "Display" and "Output"
+// body mass index is what "bmi" stands for
+Display bmi
+

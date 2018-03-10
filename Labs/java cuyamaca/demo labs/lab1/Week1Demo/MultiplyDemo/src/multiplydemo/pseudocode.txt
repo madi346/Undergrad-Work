@@ -1,0 +1,15 @@
+// pseudocode for multiply numbers
+
+// input - get 2 values
+get value1
+get value2
+
+// process - multiply the values
+result = value1 * value2
+
+// output - display the result
+display result
+// int value
+
+
+

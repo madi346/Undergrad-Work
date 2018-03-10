@@ -1,0 +1,33 @@
+// calculate an exponent
+
+// input
+get number
+get exponent
+
+// process - set up a loop to do the exponent
+result = 1
+for i = 1i 1 <= exponent i++) 
+    result = result * number
+end for
+
+// output - display result
+display result
+
+
+// do a factorial
+// 5! can be written as 1 * 2 * 3 * 4 * 5
+
+// input
+get number 
+
+// process - set up a loop to calculate the factorial
+result = 1
+i = 1
+
+while i <= number
+    result = result * i
+i = i + 1
+end while
+
+// output 
+display result 

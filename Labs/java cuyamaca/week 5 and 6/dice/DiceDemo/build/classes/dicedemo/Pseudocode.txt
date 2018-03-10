@@ -1,0 +1,28 @@
+Page 197, #15a Basic game requirements 
+----------------------------------------
+2 players (player vs computer) 
+5 dice
+random numbers 1-6 range 
+play or roll dice button
+display rolls
+check rolls - determine winning role 
+keep score - declare winner 
+
+Pseudocode - roll button is pressed/clicked 
+-------------- 
+clear the previous dice roll; initialize arrays;  
+Input - roll dice; 5 for player and 5 for computer 
+
+
+Processing 
+load 2 arrays with dice rolls (random number 1-6)
+display dice rolls 
+determine 5 of a kind, 4 of a kind, 3 of a kind, and a pair (tally 1's, 2's, 3's, 4's, 5's, 6's)
+compare tally for player and computer - determine winner or tie
+if computerTally > playerTally then 
+    computer wins - increment computer score 
+else if playerTally > computerTally then 
+    player wins - increment player score 
+else 
+    display tie 
+

@@ -1,0 +1,66 @@
+
+Pseudocode for Exercise 1
+
+
+// input 
+enter an amount in dollars like 1.33 or 9.75, use decimals 
+enter an amount you wish to have put into pennies, nickels, dimes, and quarters 
+
+// processing 
+quarters = 0.25 
+dimes = 0.10    
+nickels = 0.05
+pennies = 0.01
+
+need a for loop
+i = 0
+ i < (greater than) denominations.length
+i++
+
+$1.44
+144 pennies (times the 1.44 by 100)
+144/25 = 5 quarters, 25 = 1 quarter 
+5 * 25 = 125, subtract this from the 144
+144 - 125 = 19
+19/10 = 1, 10 = 1 dime 
+10 * 1 = 10, subtract from the 19
+19 - 10 = 9
+9/5 = 1, 5 = 1 nickel
+5 * 1 = 5, subtract from the 9
+9 - 5 = 4
+4/1 = 4, 1 = 1 penny, so there is 4 pennies 
+
+in total there are 5 quarters, 1 dime, 1 nickel, and 4 pennies 
+
+// output 
+get amount in number of quarters, dimes, nickels, and pennies
+
+
+
+Pseudocode for Exercise 2
+
+
+
+// input 
+enter the sales amount 
+
+tester sales amounts are: 199, 499, 999, 1000
+
+
+// processing 
+the sales tax for these amounts are fixed 
+the sales tax amount is 7.75%
+
+if amount is < 200, commission is 3%
+if amount is between 200 and 499, commission is 6%
+if amount is between 500 and 999, commission is 8%
+if amount is between more than 1000, commission is 10% 
+
+// output 
+get the total price 
+
+for the tester values, the total prices are: 
+214.42, 537.67, 1076.42, 1077.50
+
+
+
