@@ -8,7 +8,7 @@ using namespace std;
 void DisplayList(list < string >& states) {
 	for (list < string >::iterator it = states.begin(); it != states.end(); it++) {
 
-		cout << *it << " \ t ";
+		cout << *it << " \t ";
 	}
 
 	cout << endl;
@@ -20,11 +20,13 @@ int main()
 
 	bool done = false;
 	while (!done) {
+		cout << endl << "---------------------------"; 
 		cout << endl << "State list size = " << states.size() << endl; 
 		cout << "(1) Add new states to front of list, (2) Add new state to back of list, "
 			<< "(3) Pop state from front of list, (4) Pop state from end of list, "
 			<< "and (5) Continue." << endl << "\n";  
 
+		cout << ">>  "; 
 		int choice;
 		cin >> choice;
 		string stateName;
